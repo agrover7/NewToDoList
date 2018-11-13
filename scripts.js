@@ -72,7 +72,7 @@ function renderTodo(todoData)
     deleteButton.innerText = "-";
     todo.appendChild(deleteButton);
 
-    document.getElementById("todos").appendChild(todo);
+    document.getElementById("todo_collection").appendChild(todo);
     completeButton.addEventListener("click", completeTodo);
     deleteButton.addEventListener("click", deleteTodo);
 

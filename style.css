@@ -3,7 +3,7 @@ body {
   background-color: #FAFAFA;
 }
 
-#todos{
+#todo_collection{
   width: 60%;
   margin-left: auto;
   margin-right: auto;
@@ -14,12 +14,12 @@ body {
 
 @media(max-width: 800px)
 {
-  #todos{
+  #todo_collection{
     width: 80%;
   }
 }
 
-#todos #new-todo #newTitle{
+#todo_collection #new-todo #newTitle{
     width: 80%;
     font-size: 30px;
     border: none;
@@ -27,11 +27,11 @@ body {
     border-bottom: 1px solid black;
 }
 
-#todos #new-todo #newTitle:focus{
+#todo_collection #new-todo #newTitle:focus{
   outline: none;
 }
 
-#todos #new-todo #new-submit {
+#todo_collection #new-todo #new-submit {
   background-color: green;
   color: black;
   border: none;
@@ -44,37 +44,37 @@ body {
   top: 5px;
 }
 
-#todos #new-todo #new-submit:hover{
+#todo_collection #new-todo #new-submit:hover{
   background-color: green;
 }
 
-#todos #new-todo #new-submit:active{
+#todo_collection #new-todo #new-submit:active{
   background-color: green;
 }
 
-#todos .todo {
+#todo_collection .todo {
   font-size: 30px;
   padding: 20px 0px;
   border-bottom: 1px dotted #orange;
 }
 
-#todos .todo:last-of-type {
+#todo_collection .todo:last-of-type {
   border-bottom: none;
 }
 
-#todos .todo p{
+#todo_collection .todo p{
   display: inline-block;
   margin: 0px;
   max-width: 80%;
 }
 
-#todos .todo .button {
+#todo_collection .todo .button {
     background: none;
     position: relative;
     bottom: -2px;
   }
 
-#todos .todo .check {
+#todo_collection .todo .check {
     float: left;
     margin-right: 10px;
     width: 30px;
@@ -83,28 +83,28 @@ body {
     border-radius: 4px;
   }
 
-#todos .todo .check:hover {
+#todo_collection .todo .check:hover {
     background-color: blue;
   }
 
-#todos .todo .check:active{
+#todo_collection .todo .check:active{
     background-color: blue;
 }
 
-#todos .todo.completed{
+#todo_collection .todo.completed{
   color: pink;
 }
 
-#todos .todo.completed p {
+#todo_collection .todo.completed p {
   text-decoration: line-through;
   font-style: italic;
 }
 
-#todos .todo.completed .check {
+#todo_collection .todo.completed .check {
   background-color: purple;
 }
 
-#todos .todo .delete {
+#todo_collection .todo .delete {
   float: right;
   border: none;
   font-size: 30px;
@@ -116,10 +116,10 @@ body {
   color: white;
 }
 
-#todos .todo .delete:hover {
+#todo_collection .todo .delete:hover {
   background-color: red;
 }
 
-#todos .todo .delete:active {
+#todo_collection .todo .delete:active {
   background-color: red;
 }
