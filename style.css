@@ -19,7 +19,7 @@ body {
   }
 }
 
-#todo_collection #new-todo #newTitle{
+#todo_collection #new_task #new_title{
     width: 80%;
     font-size: 30px;
     border: none;
@@ -27,11 +27,11 @@ body {
     border-bottom: 1px solid black;
 }
 
-#todo_collection #new-todo #newTitle:focus{
+#todo_collection #new_task #new_title:focus{
   outline: none;
 }
 
-#todo_collection #new-todo #new-submit {
+#todo_collection #new_task #new_submit {
   background-color: green;
   color: black;
   border: none;
@@ -44,11 +44,11 @@ body {
   top: 5px;
 }
 
-#todo_collection #new-todo #new-submit:hover{
+#todo_collection #new_task #new_submit:hover{
   background-color: green;
 }
 
-#todo_collection #new-todo #new-submit:active{
+#todo_collection #new_task #new_submit:active{
   background-color: green;
 }
 

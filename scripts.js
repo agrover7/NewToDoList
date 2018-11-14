@@ -25,11 +25,11 @@ listRequest.send()
 
 
 //To add new events
-document.getElementById("new-todo-form").addEventListener("submit", function(event) {
+document.getElementById("new_task_form").addEventListener("submit", function(event) {
       event.preventDefault();
 
       var data = {
-        text: newTitle.value
+        text: new_title.value
       }
 
       var createRequest = new XMLHttpRequest();
@@ -76,7 +76,7 @@ function renderTodo(todoData)
     completeButton.addEventListener("click", completeTodo);
     deleteButton.addEventListener("click", deleteTodo);
 
-    document.getElementById("newTitle").value = "";
+    document.getElementById("new_title").value = "";
 }
 
 function completeTodo(event){
