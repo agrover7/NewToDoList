@@ -83,11 +83,11 @@ body {
 }
 
 #todo_collection .todo .check:hover {
-  background-color: blue;
+  background-color: green;
 }
 
 #todo_collection .todo .check:active {
-  background-color: blue;
+  background-color: green;
 }
 
 #todo_collection .todo.completed {
