@@ -44,11 +44,11 @@ body {
 }
 
 #todo_collection #new_task #new_submit:hover {
-  background-color: green;
+  background-color: blue;
 }
 
 #todo_collection #new_task #new_submit:active {
-  background-color: green;
+  background-color: blue;
 }
 
 #todo_collection .todo {
