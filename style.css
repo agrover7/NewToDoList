@@ -14,12 +14,12 @@ body {
 
 @media(max-width: 800px) {
   #todo_collection {
-    width: 80%;
+    width: 75%;
   }
 }
 
 #todo_collection #new_task #new_title {
-  width: 80%;
+  width: 75%;
   font-size: 30px;
   border: none;
   background-color: #FAFAFA;
@@ -44,17 +44,17 @@ body {
 }
 
 #todo_collection #new_task #new_submit:hover {
-  background-color: blue;
+  background-color: green;
 }
 
 #todo_collection #new_task #new_submit:active {
-  background-color: blue;
+  background-color: green;
 }
 
 #todo_collection .todo {
   font-size: 30px;
   padding: 20px 0px;
-  border-bottom: 1px dotted #orange;
+  border-bottom: 1px dotted black;
 }
 
 #todo_collection .todo:last-of-type {
@@ -83,11 +83,11 @@ body {
 }
 
 #todo_collection .todo .check:hover {
-  background-color: green;
+  background-color: blue;
 }
 
 #todo_collection .todo .check:active {
-  background-color: green;
+  background-color: blue;
 }
 
 #todo_collection .todo.completed {
